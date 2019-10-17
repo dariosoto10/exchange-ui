@@ -1,3 +1,5 @@
-const calculatePrice = (EUR, USD) => (EUR && USD) && parseFloat((EUR * USD).toFixed(4))
+import trimDecimals from './trimDecimals'
+
+const calculatePrice = (EUR, USD) => (EUR && USD) && trimDecimals(EUR * USD)
 
 export default calculatePrice

@@ -1,7 +1,8 @@
+import HeaderStyle from '../styles/header'
 import React from 'react'
 
-const Header = () => <header>
+const Header = () => <HeaderStyle>
   Exchange UI
-</header>
+</HeaderStyle>
 
 export default Header

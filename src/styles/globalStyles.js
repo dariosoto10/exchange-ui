@@ -6,6 +6,7 @@ const GlobalStyle = createGlobalStyle`
     font-weight: 400;
     padding: 0;
     margin: 0;
+    text-align: center;
   }
   .animated {
     -webkit-animation-duration: 2s;

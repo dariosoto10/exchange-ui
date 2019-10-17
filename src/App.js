@@ -1,19 +1,19 @@
-import React, {Fragment} from 'react'
-
 import Body from './components/body'
+import Container from './styles/container'
 import GlobalStyle from './styles/globalStyles'
 import Header from './components/header'
+import React from 'react'
 import { ThemeProvider } from 'styled-components'
 import theme from './styles/theme'
 
 const app = () => {
   return (
     <ThemeProvider theme={theme}>
-      <Fragment>
+      <Container>
         <GlobalStyle />
         <Header />
         <Body />
-      </Fragment>
+      </Container>
     </ThemeProvider>
   )
 }

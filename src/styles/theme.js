@@ -1,8 +1,10 @@
 const theme = {
-  purple: '#773CEC',
-  white: '#FFFFFF',
-  grayLight: '#e0e0e0',
-  gray: '#9B9B9B'
+  green: '#52B372',
+  lightBlue: '#A8FFC5',
+  blue: '#90FFB5',
+  darkPink: '#B34340',
+  lightPink: '#FF928F',
+  white: '#FFFF'
 }
 
 export default theme
